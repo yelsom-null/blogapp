@@ -19,15 +19,11 @@ public class PostService {
         return postRepo.save(post);
     }
 
-    public Post getPost(Long id){
-        return postRepo.findById(id).orElse(null);
-    }
+
 
     public List<Post> getAllPosts() {
         return postRepo.findAll();
     }
 
-    public void deletePost(Long id) {
-        postRepo.deleteById(id);
-    }
+
 }
