@@ -16,7 +16,7 @@ public class Post {
 
     @jakarta.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
     String postText;
     public Post() {
     }
