@@ -11,6 +11,7 @@ public class Author {
     private String firstName;
     private String lastName;
     private String userName;
+    private int uniqueId;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
